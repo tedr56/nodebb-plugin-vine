@@ -14,6 +14,18 @@
         }
         callback(null, data);
 
+<<<<<<< HEAD
+    var embedUrl = /<a href="(?:https?:\/\/)?(?:vine\.co)\/v\/?(.+)">.+<\/a>/g;
+    Vine.parse = function(data, callback) {
+	    if (!data || !data.postData || !data.postData.content) {
+          return callback(null, data);
+        }
+        if (data.postData.content.match(embedUrl)) {
+          data.postData.content = data.postData.content.replace(embedUrl, embed);
+        }
+        callback(null, data);
+=======
+>>>>>>> upstream/master
     };
 
     module.exports = Vine;

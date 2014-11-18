@@ -1,6 +1,10 @@
 {
   "name": "nodebb-plugin-vine",
+<<<<<<< HEAD
+  "version": "0.0.4",
+=======
   "version": "0.1.0",
+>>>>>>> upstream/master
   "description": "NodeBB Vine Plugin",
   "main": "library.js",
   "scripts": {
@@ -30,6 +34,11 @@
   },
   "readme": "",
   "readmeFilename": "README.md",
+<<<<<<< HEAD
+  "_id": "nodebb-plugin-vine@0.0.4",
+  "_from": "nodebb-plugin-vine@~0.0.4"
+=======
   "_id": "nodebb-plugin-vine@0.1.0",
   "_from": "nodebb-plugin-vine@~0.1.0"
+>>>>>>> upstream/master
 }
