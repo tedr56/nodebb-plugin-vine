@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-vine",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "NodeBB Vine Plugin",
   "main": "library.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "https://github.com/a5mith/nodebb-plugin-vine"
   },
   "nbbpm": {
-    "compatibility": "^0.5.0"
+    "compatibility": "^0.6.0"
   },
   "keywords": [
     "nodebb",
